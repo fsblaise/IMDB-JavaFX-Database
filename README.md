@@ -8,12 +8,12 @@ azokról több információ, a készítő filmstúdiók. Az adatbázis módosít
 folyamatosan bővíthető egy-egy új megjelenéssel, illetve az azt jellemző információkkal. Emellett az 
 adatbázisom webböngészőből elérhető, kezelhető és módosítható. 
 
-##Egyed-kapcsolat modell
+## Egyed-kapcsolat modell
 ![image](https://user-images.githubusercontent.com/86327017/169144707-98ba52b8-8483-4fe1-b7cf-8850f52ac742.png)
 
 
 
-##Relációs adatbázisséma 
+## Relációs adatbázisséma 
 FILM(filmid, studioid, cím, megjelenés, értékelés, hossz, költség, Oscar-díjak száma) 
 SZÍNÉSZ(szineszid, név, születési dátum, életkor, elhunyt) 
 FILMSTÚDIÓ(studioid, név, alapítási dátum, Oscar-díjak száma) 
@@ -22,18 +22,18 @@ MŰFAJOK(filmid, műfaj)
 DÍJAK(szineszid, díj, darab) 
  
  
-##Normalizálás 
+## Normalizálás 
 Az adatbázisban minden tábla 3NF-ben van, így nem kellett normalizálni. A diagram és a sémák 
 létrehozásakor kellően el tudtam különíteni a táblákat, egyedeket. 
 
 
-##Megvalósítási környezet 
+## Megvalósítási környezet 
 A program Java nyelvben készült, a megjelenítésért a JavaFX, az adatbázissal történő kommunikációért a 
 JDBC függvénykönyvtár felelős. Az adatbáziskezelő nyelv a MySQL. 
 
 
-##A program szolgáltatásai 
-###Alapfunkciók:
+## A program szolgáltatásai 
+### Alapfunkciók:
 
 *A következő alapfunkciók minden táblára meg vannak valósítva.
 - Az adatbázis tábláinak megjelenítése. 
@@ -62,7 +62,7 @@ példa a Szereplések tábla megjelenítése.
 - Nemtriviális lekérdezések meg vannak jelenítve az alkalmazásban. 
  
 
-##Három nemtriviális lekérdezés 
+## Három nemtriviális lekérdezés 
 1. lekérdezés: Az adatbázisban szereplő műfajok és az adott műfajú filmek átlagos 
 értékelése, műfajok szerint csoportosítva, értékelés szerint rendezve csökkenő 
 sorrenben.
@@ -92,8 +92,8 @@ szereplesek.tipus = 'főszereplő' and film.ertekeles = (
  ```
 
 
-##Használati útmutató 
-###Az alkalmazás felépítése: 
+## Használati útmutató 
+### Az alkalmazás felépítése: 
 Az alkalmazás tetején megtalálhatjuk a Táblaválasztó menüsort. Itt lehet kiválasztani, hogy melyik tábla 
 rekordjait szeretnénk látni, illetve lehetőségünk van a speciális lekérdezéseket is megjeleníttetni a 
 programmal *(Lekérdezések gomb)*. 
@@ -119,7 +119,7 @@ Miután megtörténtek a változtatások, bezárjuk a panelt, majd újra kell t�
 legegyszerűbben úgy tehetjük meg, hogy újra rákattintunk a tábla gombjára a Táblaválasztó 
 menüsorból. 
 
-##A tömörített mappa tartalma 
+## A projekt tartalma
 - Java_libs: A szükséges függvénykönyvtárakat tartalmazza. 
 - Kotprog: A kötelező program forráskódját tartalmazza. 
 - Dokumentacio: A program pdf formátumú dokumentációja. 
