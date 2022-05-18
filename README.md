@@ -124,3 +124,7 @@ menüsorból.
 - Dokumentacio: A program dokumentációja. 
 - Imdb.dia: Az adatbázis EK-diagramja. 
 - Imdb.sql: Az adatbázis sql fájlba kiexportálva. 
+
+## A program helyes működéséhez szükség van továbbá:
+- Egy javafx sdk-ra (A projekt készültekor ennek verziója 17.0.1)
+- Egy mysql connector-ra (8.0.27)
