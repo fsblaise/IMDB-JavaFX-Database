@@ -120,8 +120,7 @@ legegyszerűbben úgy tehetjük meg, hogy újra rákattintunk a tábla gombjára
 menüsorból. 
 
 ## A projekt tartalma
-- Java_libs: A szükséges függvénykönyvtárakat tartalmazza. 
 - Kotprog: A kötelező program forráskódját tartalmazza. 
-- Dokumentacio: A program pdf formátumú dokumentációja. 
+- Dokumentacio: A program dokumentációja. 
 - Imdb.dia: Az adatbázis EK-diagramja. 
 - Imdb.sql: Az adatbázis sql fájlba kiexportálva. 
