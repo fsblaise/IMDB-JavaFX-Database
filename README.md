@@ -1,5 +1,5 @@
 # IMDB-JavaFX-Database
-A database managing software with GUI, written in Java, using JavaFX API and JDBC.## 
+A database managing software with GUI, written in Java, using JavaFX API and JDBC. ## 
 Egy adatbázis kezelő szoftver grafikus megjelenítő felülettel, Java-ban írva, JavaFX API és JDBC használatával.
 
 
